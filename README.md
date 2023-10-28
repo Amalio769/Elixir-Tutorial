@@ -34,7 +34,7 @@ iex> 1.0e-1
 - The Elixir shell defines the `h` funtion, which you can use to access documentation for any function. For example, typing `h trunc/1` is going to print the documentation for the trunc/1 function.
 
 ## Booleans
-- Elixir supports `true` and `false` as booleans
+> **Elixir supports `true` and `false` as booleans**
 - Elixir provides a bunch of predicate functions to check for a value type. For example, the `is_boolean/1` function can be used to check if a value is a boolean or not
 - You can also use `is_integer/1`, `is_float/1` or `is_number/1` to check, respectively, if an argument is an integer, a float, or either.
 
@@ -51,7 +51,7 @@ true
 ```
 
 ## Strings
-- Strings in Elixir are delimited by double quotes, and they are encoded in UTF-8
+> **Strings in Elixir are delimited by double quotes, and they are encoded in UTF-8**
 - Elixir also supports string interpolation
 ```Elixir
 iex> string = :world
@@ -109,7 +109,7 @@ true
 - We can invoke anonymous functions by passing arguments to it. Note that a dot (.) between the variable and parentheses is required to invoke an anonymous function. The dot ensures there is no ambiguity between calling the anonymous function matched to a variable add and a named function add/2. We will write our own named functions when dealing with Modules and Functions. For now, just remember that Elixir makes a clear distinction between anonymous functions and named functions.
 
 ## Lists
-- Elixir uses square brackets to specify a list of values. Values can be of any type:
+> **Elixir uses square brackets to specify a list of values. Values can be of any type**:
 ```Elixir
 iex> [1, 2, true, 3]
 [1, 2, true, 3]
@@ -143,7 +143,7 @@ true
 ```
 > **Single quotes are charlists, double quotes are strings**.
 
-# Tuples
+## Tuples
 > **Elixir uses curly brackets to define tuples. Like  lists, tuples can hold any value**:
 ```Elixir
 iex> {:ok, "hello"}
